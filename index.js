@@ -1,4 +1,4 @@
-const Button = (props) => {
+const Button = props => {
     {className,buttonText}=props;
   //  Write your code here.
   return <button className={`button ${className}`}>{buttonText}</button>
